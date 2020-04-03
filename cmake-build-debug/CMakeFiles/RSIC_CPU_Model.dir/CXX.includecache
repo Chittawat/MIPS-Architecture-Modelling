@@ -9,6 +9,8 @@
 D:/test2/RSIC_CPU_Model/main.cpp
 iostream
 -
-string
+cstring
+-
+cmath
 -
 
