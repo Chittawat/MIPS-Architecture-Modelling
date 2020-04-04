@@ -122,6 +122,87 @@ RSIC_CPU_Model/fast:
 	$(MAKE) -f CMakeFiles\RSIC_CPU_Model.dir\build.make CMakeFiles/RSIC_CPU_Model.dir/build
 .PHONY : RSIC_CPU_Model/fast
 
+DataMemory.obj: DataMemory.cpp.obj
+
+.PHONY : DataMemory.obj
+
+# target to build an object file
+DataMemory.cpp.obj:
+	$(MAKE) -f CMakeFiles\RSIC_CPU_Model.dir\build.make CMakeFiles/RSIC_CPU_Model.dir/DataMemory.cpp.obj
+.PHONY : DataMemory.cpp.obj
+
+DataMemory.i: DataMemory.cpp.i
+
+.PHONY : DataMemory.i
+
+# target to preprocess a source file
+DataMemory.cpp.i:
+	$(MAKE) -f CMakeFiles\RSIC_CPU_Model.dir\build.make CMakeFiles/RSIC_CPU_Model.dir/DataMemory.cpp.i
+.PHONY : DataMemory.cpp.i
+
+DataMemory.s: DataMemory.cpp.s
+
+.PHONY : DataMemory.s
+
+# target to generate assembly for a file
+DataMemory.cpp.s:
+	$(MAKE) -f CMakeFiles\RSIC_CPU_Model.dir\build.make CMakeFiles/RSIC_CPU_Model.dir/DataMemory.cpp.s
+.PHONY : DataMemory.cpp.s
+
+ProgramMemory.obj: ProgramMemory.cpp.obj
+
+.PHONY : ProgramMemory.obj
+
+# target to build an object file
+ProgramMemory.cpp.obj:
+	$(MAKE) -f CMakeFiles\RSIC_CPU_Model.dir\build.make CMakeFiles/RSIC_CPU_Model.dir/ProgramMemory.cpp.obj
+.PHONY : ProgramMemory.cpp.obj
+
+ProgramMemory.i: ProgramMemory.cpp.i
+
+.PHONY : ProgramMemory.i
+
+# target to preprocess a source file
+ProgramMemory.cpp.i:
+	$(MAKE) -f CMakeFiles\RSIC_CPU_Model.dir\build.make CMakeFiles/RSIC_CPU_Model.dir/ProgramMemory.cpp.i
+.PHONY : ProgramMemory.cpp.i
+
+ProgramMemory.s: ProgramMemory.cpp.s
+
+.PHONY : ProgramMemory.s
+
+# target to generate assembly for a file
+ProgramMemory.cpp.s:
+	$(MAKE) -f CMakeFiles\RSIC_CPU_Model.dir\build.make CMakeFiles/RSIC_CPU_Model.dir/ProgramMemory.cpp.s
+.PHONY : ProgramMemory.cpp.s
+
+Register.obj: Register.cpp.obj
+
+.PHONY : Register.obj
+
+# target to build an object file
+Register.cpp.obj:
+	$(MAKE) -f CMakeFiles\RSIC_CPU_Model.dir\build.make CMakeFiles/RSIC_CPU_Model.dir/Register.cpp.obj
+.PHONY : Register.cpp.obj
+
+Register.i: Register.cpp.i
+
+.PHONY : Register.i
+
+# target to preprocess a source file
+Register.cpp.i:
+	$(MAKE) -f CMakeFiles\RSIC_CPU_Model.dir\build.make CMakeFiles/RSIC_CPU_Model.dir/Register.cpp.i
+.PHONY : Register.cpp.i
+
+Register.s: Register.cpp.s
+
+.PHONY : Register.s
+
+# target to generate assembly for a file
+Register.cpp.s:
+	$(MAKE) -f CMakeFiles\RSIC_CPU_Model.dir\build.make CMakeFiles/RSIC_CPU_Model.dir/Register.cpp.s
+.PHONY : Register.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -149,6 +230,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\RSIC_CPU_Model.dir\build.make CMakeFiles/RSIC_CPU_Model.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+programCounter.obj: programCounter.cpp.obj
+
+.PHONY : programCounter.obj
+
+# target to build an object file
+programCounter.cpp.obj:
+	$(MAKE) -f CMakeFiles\RSIC_CPU_Model.dir\build.make CMakeFiles/RSIC_CPU_Model.dir/programCounter.cpp.obj
+.PHONY : programCounter.cpp.obj
+
+programCounter.i: programCounter.cpp.i
+
+.PHONY : programCounter.i
+
+# target to preprocess a source file
+programCounter.cpp.i:
+	$(MAKE) -f CMakeFiles\RSIC_CPU_Model.dir\build.make CMakeFiles/RSIC_CPU_Model.dir/programCounter.cpp.i
+.PHONY : programCounter.cpp.i
+
+programCounter.s: programCounter.cpp.s
+
+.PHONY : programCounter.s
+
+# target to generate assembly for a file
+programCounter.cpp.s:
+	$(MAKE) -f CMakeFiles\RSIC_CPU_Model.dir\build.make CMakeFiles/RSIC_CPU_Model.dir/programCounter.cpp.s
+.PHONY : programCounter.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -158,9 +266,21 @@ help:
 	@echo ... rebuild_cache
 	@echo ... RSIC_CPU_Model
 	@echo ... edit_cache
+	@echo ... DataMemory.obj
+	@echo ... DataMemory.i
+	@echo ... DataMemory.s
+	@echo ... ProgramMemory.obj
+	@echo ... ProgramMemory.i
+	@echo ... ProgramMemory.s
+	@echo ... Register.obj
+	@echo ... Register.i
+	@echo ... Register.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... programCounter.obj
+	@echo ... programCounter.i
+	@echo ... programCounter.s
 .PHONY : help
 
 

@@ -6,11 +6,45 @@
 
 #IncludeRegexTransform: 
 
-D:/test2/RSIC_CPU_Model/main.cpp
+D:/test2/RSIC_CPU_Model/Adder.h
+
+D:/test2/RSIC_CPU_Model/DataMemory.h
+
+D:/test2/RSIC_CPU_Model/ProgramMemory.h
 iostream
 -
 cstring
 -
+string
+-
+
+D:/test2/RSIC_CPU_Model/Register.h
+
+D:/test2/RSIC_CPU_Model/main.cpp
+iostream
+-
 cmath
 -
+fstream
+-
+ProgramMemory.h
+D:/test2/RSIC_CPU_Model/ProgramMemory.h
+DataMemory.h
+D:/test2/RSIC_CPU_Model/DataMemory.h
+Register.h
+D:/test2/RSIC_CPU_Model/Register.h
+multiplexer.h
+D:/test2/RSIC_CPU_Model/multiplexer.h
+Adder.h
+D:/test2/RSIC_CPU_Model/Adder.h
+programCounter.h
+D:/test2/RSIC_CPU_Model/programCounter.h
+shiftleft.h
+D:/test2/RSIC_CPU_Model/shiftleft.h
+
+D:/test2/RSIC_CPU_Model/multiplexer.h
+
+D:/test2/RSIC_CPU_Model/programCounter.h
+
+D:/test2/RSIC_CPU_Model/shiftleft.h
 

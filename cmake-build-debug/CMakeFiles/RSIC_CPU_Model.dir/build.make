@@ -69,19 +69,79 @@ CMakeFiles/RSIC_CPU_Model.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RSIC_CPU_Model.dir/main.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\test2\RSIC_CPU_Model\main.cpp -o CMakeFiles\RSIC_CPU_Model.dir\main.cpp.s
 
+CMakeFiles/RSIC_CPU_Model.dir/ProgramMemory.cpp.obj: CMakeFiles/RSIC_CPU_Model.dir/flags.make
+CMakeFiles/RSIC_CPU_Model.dir/ProgramMemory.cpp.obj: ../ProgramMemory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\test2\RSIC_CPU_Model\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/RSIC_CPU_Model.dir/ProgramMemory.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RSIC_CPU_Model.dir\ProgramMemory.cpp.obj -c D:\test2\RSIC_CPU_Model\ProgramMemory.cpp
+
+CMakeFiles/RSIC_CPU_Model.dir/ProgramMemory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RSIC_CPU_Model.dir/ProgramMemory.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\test2\RSIC_CPU_Model\ProgramMemory.cpp > CMakeFiles\RSIC_CPU_Model.dir\ProgramMemory.cpp.i
+
+CMakeFiles/RSIC_CPU_Model.dir/ProgramMemory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RSIC_CPU_Model.dir/ProgramMemory.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\test2\RSIC_CPU_Model\ProgramMemory.cpp -o CMakeFiles\RSIC_CPU_Model.dir\ProgramMemory.cpp.s
+
+CMakeFiles/RSIC_CPU_Model.dir/DataMemory.cpp.obj: CMakeFiles/RSIC_CPU_Model.dir/flags.make
+CMakeFiles/RSIC_CPU_Model.dir/DataMemory.cpp.obj: ../DataMemory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\test2\RSIC_CPU_Model\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/RSIC_CPU_Model.dir/DataMemory.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RSIC_CPU_Model.dir\DataMemory.cpp.obj -c D:\test2\RSIC_CPU_Model\DataMemory.cpp
+
+CMakeFiles/RSIC_CPU_Model.dir/DataMemory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RSIC_CPU_Model.dir/DataMemory.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\test2\RSIC_CPU_Model\DataMemory.cpp > CMakeFiles\RSIC_CPU_Model.dir\DataMemory.cpp.i
+
+CMakeFiles/RSIC_CPU_Model.dir/DataMemory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RSIC_CPU_Model.dir/DataMemory.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\test2\RSIC_CPU_Model\DataMemory.cpp -o CMakeFiles\RSIC_CPU_Model.dir\DataMemory.cpp.s
+
+CMakeFiles/RSIC_CPU_Model.dir/Register.cpp.obj: CMakeFiles/RSIC_CPU_Model.dir/flags.make
+CMakeFiles/RSIC_CPU_Model.dir/Register.cpp.obj: ../Register.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\test2\RSIC_CPU_Model\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/RSIC_CPU_Model.dir/Register.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RSIC_CPU_Model.dir\Register.cpp.obj -c D:\test2\RSIC_CPU_Model\Register.cpp
+
+CMakeFiles/RSIC_CPU_Model.dir/Register.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RSIC_CPU_Model.dir/Register.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\test2\RSIC_CPU_Model\Register.cpp > CMakeFiles\RSIC_CPU_Model.dir\Register.cpp.i
+
+CMakeFiles/RSIC_CPU_Model.dir/Register.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RSIC_CPU_Model.dir/Register.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\test2\RSIC_CPU_Model\Register.cpp -o CMakeFiles\RSIC_CPU_Model.dir\Register.cpp.s
+
+CMakeFiles/RSIC_CPU_Model.dir/programCounter.cpp.obj: CMakeFiles/RSIC_CPU_Model.dir/flags.make
+CMakeFiles/RSIC_CPU_Model.dir/programCounter.cpp.obj: ../programCounter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\test2\RSIC_CPU_Model\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/RSIC_CPU_Model.dir/programCounter.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RSIC_CPU_Model.dir\programCounter.cpp.obj -c D:\test2\RSIC_CPU_Model\programCounter.cpp
+
+CMakeFiles/RSIC_CPU_Model.dir/programCounter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RSIC_CPU_Model.dir/programCounter.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\test2\RSIC_CPU_Model\programCounter.cpp > CMakeFiles\RSIC_CPU_Model.dir\programCounter.cpp.i
+
+CMakeFiles/RSIC_CPU_Model.dir/programCounter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RSIC_CPU_Model.dir/programCounter.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\test2\RSIC_CPU_Model\programCounter.cpp -o CMakeFiles\RSIC_CPU_Model.dir\programCounter.cpp.s
+
 # Object files for target RSIC_CPU_Model
 RSIC_CPU_Model_OBJECTS = \
-"CMakeFiles/RSIC_CPU_Model.dir/main.cpp.obj"
+"CMakeFiles/RSIC_CPU_Model.dir/main.cpp.obj" \
+"CMakeFiles/RSIC_CPU_Model.dir/ProgramMemory.cpp.obj" \
+"CMakeFiles/RSIC_CPU_Model.dir/DataMemory.cpp.obj" \
+"CMakeFiles/RSIC_CPU_Model.dir/Register.cpp.obj" \
+"CMakeFiles/RSIC_CPU_Model.dir/programCounter.cpp.obj"
 
 # External object files for target RSIC_CPU_Model
 RSIC_CPU_Model_EXTERNAL_OBJECTS =
 
 RSIC_CPU_Model.exe: CMakeFiles/RSIC_CPU_Model.dir/main.cpp.obj
+RSIC_CPU_Model.exe: CMakeFiles/RSIC_CPU_Model.dir/ProgramMemory.cpp.obj
+RSIC_CPU_Model.exe: CMakeFiles/RSIC_CPU_Model.dir/DataMemory.cpp.obj
+RSIC_CPU_Model.exe: CMakeFiles/RSIC_CPU_Model.dir/Register.cpp.obj
+RSIC_CPU_Model.exe: CMakeFiles/RSIC_CPU_Model.dir/programCounter.cpp.obj
 RSIC_CPU_Model.exe: CMakeFiles/RSIC_CPU_Model.dir/build.make
 RSIC_CPU_Model.exe: CMakeFiles/RSIC_CPU_Model.dir/linklibs.rsp
 RSIC_CPU_Model.exe: CMakeFiles/RSIC_CPU_Model.dir/objects1.rsp
 RSIC_CPU_Model.exe: CMakeFiles/RSIC_CPU_Model.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\test2\RSIC_CPU_Model\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable RSIC_CPU_Model.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\test2\RSIC_CPU_Model\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable RSIC_CPU_Model.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\RSIC_CPU_Model.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

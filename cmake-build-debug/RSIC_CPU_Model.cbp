@@ -82,7 +82,40 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/test2/RSIC_CPU_Model/Adder.h">
+			<Option target="RSIC_CPU_Model"/>
+		</Unit>
+		<Unit filename="D:/test2/RSIC_CPU_Model/DataMemory.cpp">
+			<Option target="RSIC_CPU_Model"/>
+		</Unit>
+		<Unit filename="D:/test2/RSIC_CPU_Model/DataMemory.h">
+			<Option target="RSIC_CPU_Model"/>
+		</Unit>
+		<Unit filename="D:/test2/RSIC_CPU_Model/ProgramMemory.cpp">
+			<Option target="RSIC_CPU_Model"/>
+		</Unit>
+		<Unit filename="D:/test2/RSIC_CPU_Model/ProgramMemory.h">
+			<Option target="RSIC_CPU_Model"/>
+		</Unit>
+		<Unit filename="D:/test2/RSIC_CPU_Model/Register.cpp">
+			<Option target="RSIC_CPU_Model"/>
+		</Unit>
+		<Unit filename="D:/test2/RSIC_CPU_Model/Register.h">
+			<Option target="RSIC_CPU_Model"/>
+		</Unit>
 		<Unit filename="D:/test2/RSIC_CPU_Model/main.cpp">
+			<Option target="RSIC_CPU_Model"/>
+		</Unit>
+		<Unit filename="D:/test2/RSIC_CPU_Model/multiplexer.h">
+			<Option target="RSIC_CPU_Model"/>
+		</Unit>
+		<Unit filename="D:/test2/RSIC_CPU_Model/programCounter.cpp">
+			<Option target="RSIC_CPU_Model"/>
+		</Unit>
+		<Unit filename="D:/test2/RSIC_CPU_Model/programCounter.h">
+			<Option target="RSIC_CPU_Model"/>
+		</Unit>
+		<Unit filename="D:/test2/RSIC_CPU_Model/shiftleft.h">
 			<Option target="RSIC_CPU_Model"/>
 		</Unit>
 		<Unit filename="D:/test2/RSIC_CPU_Model/CMakeLists.txt">

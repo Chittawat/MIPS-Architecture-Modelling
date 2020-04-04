@@ -73,12 +73,12 @@ preinstall:
 CMakeFiles/RSIC_CPU_Model.dir/all:
 	$(MAKE) -f CMakeFiles\RSIC_CPU_Model.dir\build.make CMakeFiles/RSIC_CPU_Model.dir/depend
 	$(MAKE) -f CMakeFiles\RSIC_CPU_Model.dir\build.make CMakeFiles/RSIC_CPU_Model.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\test2\RSIC_CPU_Model\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target RSIC_CPU_Model"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\test2\RSIC_CPU_Model\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target RSIC_CPU_Model"
 .PHONY : CMakeFiles/RSIC_CPU_Model.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/RSIC_CPU_Model.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\test2\RSIC_CPU_Model\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\test2\RSIC_CPU_Model\cmake-build-debug\CMakeFiles 6
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/RSIC_CPU_Model.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\test2\RSIC_CPU_Model\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/RSIC_CPU_Model.dir/rule

@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/RSIC_CPU_Model.dir/DataMemory.cpp.obj"
+  "CMakeFiles/RSIC_CPU_Model.dir/ProgramMemory.cpp.obj"
+  "CMakeFiles/RSIC_CPU_Model.dir/Register.cpp.obj"
   "CMakeFiles/RSIC_CPU_Model.dir/main.cpp.obj"
+  "CMakeFiles/RSIC_CPU_Model.dir/programCounter.cpp.obj"
   "RSIC_CPU_Model.exe"
   "RSIC_CPU_Model.exe.manifest"
   "RSIC_CPU_Model.pdb"
