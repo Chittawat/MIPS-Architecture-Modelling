@@ -2,7 +2,9 @@
 Developed a MIPS Architecture based CPU model which received the instruction from file and process the command based on MIPS ISA. The model was implemented using C++ with Object Orientated Programming methodology.
 
 ## Usage
-
+1. Run the program
+2. Enter the Binary Encoding as listed in the command list
+3. The program print the result of the command according to MIPS Architecture ISA
 ## Command List
 ### R-Instruction
 
