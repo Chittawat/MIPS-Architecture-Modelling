@@ -19,7 +19,7 @@ Developed a MIPS Architecture based CPU model which received the instruction fro
 | 000000       |100010       | SUB -- Subtract                      | $d = $s - $t                    | sub $d, $s, $t  | 0000 00ss ssst tttt dddd d000 0010 0010   |
 | 000000       |100011       | SUBU -- Subtract unsigned            | $d = $s - $t                    | subu $d, $s, $t | 0000 00ss ssst tttt dddd d000 0010 0011   |
 | 000000       |100100       | AND -- Bitwise and                   | $d = $s & $t                    | and $d, $s, $t  | 0000 00ss ssst tttt dddd d000 0010 0100   |
-| 000000       |100101       | OR -- Bitwise or                     | $d = $s | $t                    | or $d, $s, $t   | 0000 00ss ssst tttt dddd d000 0010 0101   |
+| 000000       |100101       | OR -- Bitwise or                     | $d = $s "|" $t                    | or $d, $s, $t   | 0000 00ss ssst tttt dddd d000 0010 0101   |
 | 000000       |100110       | XOR -- Bitwise exclusive or          | $d = $s ^ $t                    | xor $d, $s, $t  | 0000 00ss ssst tttt dddd d--- --10 0110   |
 | 000000       |101010       | SLT -- Set on less than (signed)     | if $s < $t $d = 1; else $d = 0; | sra $d, $t, h   | 0000 00-- ---t tttt dddd dhhh hh00 0011   |
 | 000000       |101011       | SRA -- Shift right arithmetic | $d = $t << h | slt $d, $s, $t   | 0000 00-- ---t tttt dddd dhhh hh00 0011   |
