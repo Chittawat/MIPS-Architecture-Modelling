@@ -21,12 +21,12 @@ Developed a MIPS Architecture based CPU model which received the instruction fro
 | 000000       |100100       | AND -- Bitwise and                   | $d = $s & $t                    | and $d, $s, $t  | 0000 00ss ssst tttt dddd d000 0010 0100   |
 | 000000       |100101       | OR -- Bitwise or                     | $d = $s   $t                    | or $d, $s, $t   | 0000 00ss ssst tttt dddd d000 0010 0101   |
 | 000000       |100110       | XOR -- Bitwise exclusive or          | $d = $s ^ $t                    | xor $d, $s, $t  | 0000 00ss ssst tttt dddd d--- --10 0110   |
-| 000000       |101010       | SLT -- Set on less than (signed)     | if $s < $t $d = 1; else $d = 0; | sra $d, $t, h   | 0000 00-- ---t tttt dddd dhhh hh00 0011   |
-| 000000       |101011       | SRA -- Shift right arithmetic | $d = $t << h | slt $d, $s, $t   | 0000 00-- ---t tttt dddd dhhh hh00 0011   |
-| 000000       |110000       | SRA -- Shift right arithmetic | $d = $t << h | sra $d, $t, h   | 0000 00-- ---t tttt dddd dhhh hh00 0011   |
-| 000000       |110001       | SRA -- Shift right arithmetic | $d = $t << h | sra $d, $t, h   | 0000 00-- ---t tttt dddd dhhh hh00 0011   |
-| 000000       |110010       | SRA -- Shift right arithmetic | $d = $t << h | sra $d, $t, h   | 0000 00-- ---t tttt dddd dhhh hh00 0011   |
-| 000000       |110011       | SRA -- Shift right arithmetic | $d = $t << h | sra $d, $t, h   | 0000 00-- ---t tttt dddd dhhh hh00 0011   |
+| 000000       |101010       | SLT -- Set on less than (signed)     | if $s < $t $d = 1; else $d = 0; | sra $d, $t, h   | 0000 00ss ssst tttt dddd d000 0010 1010   |
+| 000000       |101011       | SLTU -- Set on less than unsigned    | if $s > $t $d = 1; else $d = 0; | sltu $d, $s, $t |	0000 00ss ssst tttt dddd d000 0010 1011   |
+| 000000       |110000       | MUL -- Multiply                      | $d = $s * $t                    | mul $d, $s, $t  | 0000 00ss ssst tttt dddd d000 0011 0000   |
+| 000000       |110001       | MULU -- Multiply unsigned            | $d = $s * $t                    | mulu $d, $s, $t | 0000 00ss ssst tttt dddd d000 0011 0001   |
+| 000000       |110010       | DIV -- Divide                        | $d = $s / $t                    | div $d, $s, $t  | 0000 00ss ssst tttt dddd d000 0011 0010   |
+| 000000       |110011       | DIV -- Divide unsigned               | $d = $s / $t                    | divu $d, $s, $t | 0000 00ss ssst tttt dddd d000 0011 0011   |
 
 ### I-Instruction
 
