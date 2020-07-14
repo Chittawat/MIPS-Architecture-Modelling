@@ -2,8 +2,8 @@
 Developed a MIPS Architecture based CPU model which received the instruction from file and process the command based on MIPS ISA. The model was implemented using C++ with Object Orientated Programming methodology.
 
 ## Usage
-1. Run the program
-2. Enter the Binary Encoding as listed in the command list
+1. Enter the Binary Encoding represented in command list into sample.txt
+2. Run the program
 3. The program print the result of the command according to MIPS Architecture ISA
 ## Command List
 ### R-Instruction
@@ -30,9 +30,22 @@ Developed a MIPS Architecture based CPU model which received the instruction fro
 
 ### I-Instruction
 
-| AluOp   | Function                     | Operation    | Assembly Syntax      | Binary Input/Encoding                     |
-| --------|------------------------------|--------------|----------------------|------------------------------------------ |
-|
+| AluOp Binary   | Function                                      | Operation                       | Assembly Syntax      | Binary Input/Encoding                     |
+| ---------------|-----------------------------------------------|---------------------------------|----------------------|------------------------------------------ |
+| 001000         | ADDI -- Add immediate (with overflow)         | $t = $s + imm                   | addi $t, $s, imm     | 0010 00ss ssst tttt iiii iiii iiii iiii   |
+| 001001         | ADDIU -- Add immediate unsigned (no overflow) | $t = $s + imm                   | addiu $t, $s, imm    | 0010 01ss ssst tttt iiii iiii iiii iiii   |
+| 001010         | SLTI -- Set on less than immediate (signed)   | if $s < imm $t = 1; else $t = 0 | slti $t, $s, imm     | 0010 10ss ssst tttt iiii iiii iiii iiii   |
+| 001011         | SLTIU -- Set on less than immediate unsigned  | if $s < imm $t = 1; else $t = 0 | addiu $t, $s, imm    | 0010 11ss ssst tttt iiii iiii iiii iiii   |
+| 001100         | ANDI -- Bitwise and immediate                 | $t = $s & imm                   | andi $t, $s, imm     | 0011 00ss ssst tttt iiii iiii iiii iiii   |
+| 001101         | ORI -- Bitwise or immediate                   | $t = $s  imm                    | ori $t, $s, imm      | 0011 01ss ssst tttt iiii iiii iiii iiii   |
+| 001110         | XORI -- Bitwise exclusive or immediate        | $t = $s ^ imm                   | xori $t, $s, imm     | 0011 10ss ssst tttt iiii iiii iiii iiii   |
+| 001111         | LUI -- Load upper immediate                   | $t = (imm << 16)                | lui $t, imm          | 0011 11-- ---t tttt iiii iiii iiii iiii   |
+| 010000         | MOV -- Assign value to address                | $s = imm                        | mov $s imm           | 0100 00ss sss- ---- iiii iiii iiii iiii   |
+| 010001         | MOVS -- Assign value to address               | $t = imm                        | mov $t imm           | 0100 01-- ---t tttt iiii iiii iiii iiii   |
+| 100000         | LB -- Load byte                               | $t = MEM[$s + offset]           | lb $t, offset($s)    | 1000 00ss ssst tttt iiii iiii iiii iiii   |
+| 100010         | LW -- Load word                               | $t = MEM[$s + offset]           | lw $t, offset($s)    | 1000 11ss ssst tttt iiii iiii iiii iiii   |
+| 101000         | SB -- Store byte                              | MEM[$s + offset] = (0xff & $t)  | sb $t, offset($s)    | 1010 00ss ssst tttt iiii iiii iiii iiii   |
+| 101011         | SW -- Store word                              | MEM[$s + offset] = $t           | sw $t, offset($s)    | 1010 11ss ssst tttt iiii iiii iiii iiii   |
 
 ### J-Instruction
 
@@ -41,7 +54,6 @@ Developed a MIPS Architecture based CPU model which received the instruction fro
 |
 
 ## Future Work
-- Enable Read from file (.txt)
 - Use multithreading to make program run as a real pipeline computer
 - Allowing Assembly Input
 
