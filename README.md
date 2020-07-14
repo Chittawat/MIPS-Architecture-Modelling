@@ -49,9 +49,13 @@ Developed a MIPS Architecture based CPU model which received the instruction fro
 
 ### J-Instruction
 
-| AluOp   | Function                     | Operation    | Assembly Syntax      | Binary Input/Encoding                     |
-| --------|------------------------------|--------------|----------------------|------------------------------------------ |
-|
+| AluOp   | Function                     | Operation                                                  | Assembly Syntax      | Binary Input/Encoding                     |
+| --------|------------------------------|------------------------------------------------------------|----------------------|------------------------------------------ |
+| 000010  | ZERO -- output 0             | $d = 0                                                     | zero                 | 0000 10-- ---- ---- ---- ---- ---- ----   |
+| 000100  | BEQ -- Branch on equal       | if $s == $t advance_pc (offset << 2)); else advance_pc (4);| beq $s, $t, offset   | 0001 00ss ssst tttt iiii iiii iiii iiii   |
+| 000101  | BNE -- Branch on not equal   | if $s != $t advance_pc (offset << 2)); else advance_pc (4);| bne $s, $t, offset   | 0001 01ss ssst tttt iiii iiii iiii iiii   |
+| 000110  | BLE -- Branch on less than   | if $s < $t advance_pc (offset << 2)); else advance_pc (4); | ble $s, $t, offset   | 0001 10ss ssst tttt iiii iiii iiii iiii   |
+| 000111  | BGT -- Branch on more than   | if $s > $t advance_pc (offset << 2)); else advance_pc (4); | bgt $s, $t, offset   | 0001 11ss ssst tttt iiii iiii iiii iiii   |
 
 ## Future Work
 - Use multithreading to make program run as a real pipeline computer
