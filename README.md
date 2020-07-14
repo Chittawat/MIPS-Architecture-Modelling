@@ -10,8 +10,8 @@ Developed a MIPS Architecture based CPU model which received the instruction fro
 
 | AluOp Binary | Func Binary | Function                      | Operation    | Assembly Syntax | Binary Input/Encoding                     |
 | -------------|-------------|------------------------------ |--------------|-----------------|------------------------------------------ |
-| 000000       |000000       | SLL - Shift left logical      | $d = $t << h | sll $d, $t, h   | 0000_00ss_ssst_tttt_dddd_dhhh_hh00_0000   |
-| 000000       |000011       | SRA -- Shift right arithmetic | $d = $t << h | sra $d, $t, h   | 0000_00--_---t_tttt_dddd_dhhh_hh00_0011   |
+| 000000       |000000       | SLL - Shift left logical      | $d = $t << h | sll $d, $t, h   | 0000 00ss ssst tttt dddd dhhh hh00 0000   |
+| 000000       |000011       | SRA -- Shift right arithmetic | $d = $t << h | sra $d, $t, h   | 0000 00-- ---t tttt dddd dhhh hh00 0011   |
 
 ### I-Instruction
 
