@@ -102,10 +102,10 @@ string assembler(string code){
     else if(opt=="SW"    )  {ssOut<<"101011"<<r2<<r1<<r3;}//fault
         //J-instruction
     else if(opt=="ZERO"  )  {ssOut<<"000010"<<"00000"<<"00000"<<"00000"<<"00000"<<"000000";}
-    else if(opt=="BEQ"   )  {ssOut<<"000100"<<r1<<r2<<r3;}//fault
-    else if(opt=="BNE"   )  {ssOut<<"000101"<<r1<<r2<<r3;}//fault
-    else if(opt=="BLE"   )  {ssOut<<"000110"<<r1<<r2<<r3;}//fault
-    else if(opt=="BGT"   )  {ssOut<<"000111"<<r1<<r2<<r3;}//fault
+    else if(opt=="BEQ"   )  {ssOut<<"000100"<<r1<<r2<<r3;}
+    else if(opt=="BNE"   )  {ssOut<<"000101"<<r1<<r2<<r3;}
+    else if(opt=="BLE"   )  {ssOut<<"000110"<<r1<<r2<<r3;}
+    else if(opt=="BGT"   )  {ssOut<<"000111"<<r1<<r2<<r3;}
     else                    {ssOut<<"00000000000000000000000000000000";}
     string result=ssOut.str();
     return result;
