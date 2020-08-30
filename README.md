@@ -61,7 +61,6 @@ Developed a MIPS Architecture based CPU model which received the instruction fro
 
 ## Future Work
 - Use multithreading to make program run as a real pipeline computer
-- Fix Load and Store
 - Assign proper register structure
 - Add Procedure functionality
 
