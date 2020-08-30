@@ -12,8 +12,8 @@ Developed a MIPS Architecture based CPU model which received the instruction fro
 | -------------|-------------|--------------------------------------|---------------------------------|-----------------|------------------------------------------ |
 | 000000       |000000       | SLL -- Shift left logical            | $d = $t << h                    | sll $d, $t, h   | 0000 00ss ssst tttt dddd dhhh hh00 0000   |
 | 000000       |000011       | SRA -- Shift right arithmetic        | $d = $t << h                    | sra $d, $t, h   | 0000 00-- ---t tttt dddd dhhh hh00 0011   |
-| 000000       |000100       | SLLV -- Shift left logical variable  | $d = $t << $s                   | sllv $d, $t, $s | 0000 00-- ---t tttt dddd dhhh hh00 0011   |
-| 000000       |000110       | SRLV -- Shift right logical variable | $d = $t >> $s                   | srlv $d, $t, $s | 0000 00-- ---t tttt dddd dhhh hh00 0011   |
+| 000000       |000100       | SLLV -- Shift left logical variable  | $d = $t << $s                   | sllv $d, $t, $s | 0000 00ss ssst tttt dddd d--- --00 0100   |
+| 000000       |000110       | SRLV -- Shift right logical variable | $d = $t >> $s                   | srlv $d, $t, $s | 0000 00ss ssst tttt dddd d--- --00 0110   |
 | 000000       |100000       | ADD – Add (with overflow)            | $d = $s + $t                    | add $d, $s, $t  | 0000 00ss ssst tttt dddd d000 0010 0000   |
 | 000000       |100001       | ADDU -- Add unsigned (no overflow)   | $d = $s + $t                    | addu $d, $s, $t | 0000 00ss ssst tttt dddd d000 0010 0001   |
 | 000000       |100010       | SUB -- Subtract                      | $d = $s - $t                    | sub $d, $s, $t  | 0000 00ss ssst tttt dddd d000 0010 0010   |
