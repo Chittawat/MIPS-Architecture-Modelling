@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/RSIC_CPU_Model.dir/ALU.cpp.obj"
+  "CMakeFiles/RSIC_CPU_Model.dir/AdditionalMethod.cpp.obj"
   "CMakeFiles/RSIC_CPU_Model.dir/DataMemory.cpp.obj"
   "CMakeFiles/RSIC_CPU_Model.dir/ProgramMemory.cpp.obj"
   "CMakeFiles/RSIC_CPU_Model.dir/Register.cpp.obj"

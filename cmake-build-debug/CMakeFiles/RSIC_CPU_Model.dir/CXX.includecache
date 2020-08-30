@@ -6,11 +6,25 @@
 
 #IncludeRegexTransform: 
 
-D:/test2/RSIC_CPU_Model/Adder.h
+D:/personalproject/RISC_CPU_Model/ALU.h
+iostream
+-
+cmath
+-
 
-D:/test2/RSIC_CPU_Model/DataMemory.h
+D:/personalproject/RISC_CPU_Model/Adder.h
 
-D:/test2/RSIC_CPU_Model/ProgramMemory.h
+D:/personalproject/RISC_CPU_Model/AdditionalMethod.h
+iostream
+-
+cmath
+-
+string
+-
+
+D:/personalproject/RISC_CPU_Model/DataMemory.h
+
+D:/personalproject/RISC_CPU_Model/ProgramMemory.h
 iostream
 -
 cstring
@@ -18,33 +32,53 @@ cstring
 string
 -
 
-D:/test2/RSIC_CPU_Model/Register.h
+D:/personalproject/RISC_CPU_Model/Register.h
 
-D:/test2/RSIC_CPU_Model/main.cpp
+D:/personalproject/RISC_CPU_Model/assembler.h
+sstream
+-
+string
+-
 iostream
 -
 cmath
 -
+
+D:/personalproject/RISC_CPU_Model/internalInterconnect.h
+iostream
+-
+
+D:/personalproject/RISC_CPU_Model/main.cpp
+iostream
+-
 fstream
 -
 ProgramMemory.h
-D:/test2/RSIC_CPU_Model/ProgramMemory.h
+D:/personalproject/RISC_CPU_Model/ProgramMemory.h
 DataMemory.h
-D:/test2/RSIC_CPU_Model/DataMemory.h
+D:/personalproject/RISC_CPU_Model/DataMemory.h
 Register.h
-D:/test2/RSIC_CPU_Model/Register.h
+D:/personalproject/RISC_CPU_Model/Register.h
 multiplexer.h
-D:/test2/RSIC_CPU_Model/multiplexer.h
+D:/personalproject/RISC_CPU_Model/multiplexer.h
 Adder.h
-D:/test2/RSIC_CPU_Model/Adder.h
+D:/personalproject/RISC_CPU_Model/Adder.h
 programCounter.h
-D:/test2/RSIC_CPU_Model/programCounter.h
+D:/personalproject/RISC_CPU_Model/programCounter.h
 shiftleft.h
-D:/test2/RSIC_CPU_Model/shiftleft.h
+D:/personalproject/RISC_CPU_Model/shiftleft.h
+ALU.h
+D:/personalproject/RISC_CPU_Model/ALU.h
+AdditionalMethod.h
+D:/personalproject/RISC_CPU_Model/AdditionalMethod.h
+internalInterconnect.h
+D:/personalproject/RISC_CPU_Model/internalInterconnect.h
+assembler.h
+D:/personalproject/RISC_CPU_Model/assembler.h
 
-D:/test2/RSIC_CPU_Model/multiplexer.h
+D:/personalproject/RISC_CPU_Model/multiplexer.h
 
-D:/test2/RSIC_CPU_Model/programCounter.h
+D:/personalproject/RISC_CPU_Model/programCounter.h
 
-D:/test2/RSIC_CPU_Model/shiftleft.h
+D:/personalproject/RISC_CPU_Model/shiftleft.h
 

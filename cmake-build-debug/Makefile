@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.3.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\test2\RSIC_CPU_Model
+CMAKE_SOURCE_DIR = D:\personalproject\RISC_CPU_Model
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\test2\RSIC_CPU_Model\cmake-build-debug
+CMAKE_BINARY_DIR = D:\personalproject\RISC_CPU_Model\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\test2\RSIC_CPU_Model\cmake-build-debug\CMakeFiles D:\test2\RSIC_CPU_Model\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\personalproject\RISC_CPU_Model\cmake-build-debug\CMakeFiles D:\personalproject\RISC_CPU_Model\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\test2\RSIC_CPU_Model\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\personalproject\RISC_CPU_Model\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -121,6 +121,60 @@ RSIC_CPU_Model: cmake_check_build_system
 RSIC_CPU_Model/fast:
 	$(MAKE) -f CMakeFiles\RSIC_CPU_Model.dir\build.make CMakeFiles/RSIC_CPU_Model.dir/build
 .PHONY : RSIC_CPU_Model/fast
+
+ALU.obj: ALU.cpp.obj
+
+.PHONY : ALU.obj
+
+# target to build an object file
+ALU.cpp.obj:
+	$(MAKE) -f CMakeFiles\RSIC_CPU_Model.dir\build.make CMakeFiles/RSIC_CPU_Model.dir/ALU.cpp.obj
+.PHONY : ALU.cpp.obj
+
+ALU.i: ALU.cpp.i
+
+.PHONY : ALU.i
+
+# target to preprocess a source file
+ALU.cpp.i:
+	$(MAKE) -f CMakeFiles\RSIC_CPU_Model.dir\build.make CMakeFiles/RSIC_CPU_Model.dir/ALU.cpp.i
+.PHONY : ALU.cpp.i
+
+ALU.s: ALU.cpp.s
+
+.PHONY : ALU.s
+
+# target to generate assembly for a file
+ALU.cpp.s:
+	$(MAKE) -f CMakeFiles\RSIC_CPU_Model.dir\build.make CMakeFiles/RSIC_CPU_Model.dir/ALU.cpp.s
+.PHONY : ALU.cpp.s
+
+AdditionalMethod.obj: AdditionalMethod.cpp.obj
+
+.PHONY : AdditionalMethod.obj
+
+# target to build an object file
+AdditionalMethod.cpp.obj:
+	$(MAKE) -f CMakeFiles\RSIC_CPU_Model.dir\build.make CMakeFiles/RSIC_CPU_Model.dir/AdditionalMethod.cpp.obj
+.PHONY : AdditionalMethod.cpp.obj
+
+AdditionalMethod.i: AdditionalMethod.cpp.i
+
+.PHONY : AdditionalMethod.i
+
+# target to preprocess a source file
+AdditionalMethod.cpp.i:
+	$(MAKE) -f CMakeFiles\RSIC_CPU_Model.dir\build.make CMakeFiles/RSIC_CPU_Model.dir/AdditionalMethod.cpp.i
+.PHONY : AdditionalMethod.cpp.i
+
+AdditionalMethod.s: AdditionalMethod.cpp.s
+
+.PHONY : AdditionalMethod.s
+
+# target to generate assembly for a file
+AdditionalMethod.cpp.s:
+	$(MAKE) -f CMakeFiles\RSIC_CPU_Model.dir\build.make CMakeFiles/RSIC_CPU_Model.dir/AdditionalMethod.cpp.s
+.PHONY : AdditionalMethod.cpp.s
 
 DataMemory.obj: DataMemory.cpp.obj
 
@@ -266,6 +320,12 @@ help:
 	@echo ... rebuild_cache
 	@echo ... RSIC_CPU_Model
 	@echo ... edit_cache
+	@echo ... ALU.obj
+	@echo ... ALU.i
+	@echo ... ALU.s
+	@echo ... AdditionalMethod.obj
+	@echo ... AdditionalMethod.i
+	@echo ... AdditionalMethod.s
 	@echo ... DataMemory.obj
 	@echo ... DataMemory.i
 	@echo ... DataMemory.s

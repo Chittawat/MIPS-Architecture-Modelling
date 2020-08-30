@@ -5,7 +5,6 @@
 #ifndef RSIC_CPU_MODEL_REGISTER_H
 #define RSIC_CPU_MODEL_REGISTER_H
 
-
 class Register {
 private:
     int reg[32];

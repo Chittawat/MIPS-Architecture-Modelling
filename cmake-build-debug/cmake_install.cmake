@@ -1,4 +1,4 @@
-# Install script for directory: D:/test2/RSIC_CPU_Model
+# Install script for directory: D:/personalproject/RISC_CPU_Model
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/test2/RSIC_CPU_Model/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/personalproject/RISC_CPU_Model/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
