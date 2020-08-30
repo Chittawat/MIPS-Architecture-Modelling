@@ -21,8 +21,8 @@ Developed a MIPS Architecture based CPU model which received the instruction fro
 | 000000       |100010       | SUB -- Subtract                      | $d = $s - $t                    | sub $d, $s, $t  | 0000 00ss ssst tttt dddd d000 0010 0010   |
 | 000000       |100011       | SUBU -- Subtract unsigned            | $d = $s - $t                    | subu $d, $s, $t | 0000 00ss ssst tttt dddd d000 0010 0011   |
 | 000000       |100100       | AND -- Bitwise and                   | $d = $s & $t                    | and $d, $s, $t  | 0000 00ss ssst tttt dddd d000 0010 0100   |
-| 000000       |100101       | OR -- Bitwise or                     | $d = $s   $t                    | or $d, $s, $t   | 0000 00ss ssst tttt dddd d000 0010 0101   |
-| 000000       |100110       | XOR -- Bitwise exclusive or          | $d = $s ^ $t                    | xor $d, $s, $t  | 0000 00ss ssst tttt dddd d--- --10 0110   |
+| 000000       |100101       | ORR -- Bitwise or                     | $d = $s   $t                    | or $d, $s, $t   | 0000 00ss ssst tttt dddd d000 0010 0101   |
+| 000000       |100110       | EOR -- Bitwise exclusive or          | $d = $s ^ $t                    | xor $d, $s, $t  | 0000 00ss ssst tttt dddd d--- --10 0110   |
 | 000000       |101010       | SLT -- Set on less than (signed)     | if $s < $t $d = 1; else $d = 0; | sra $d, $t, h   | 0000 00ss ssst tttt dddd d000 0010 1010   |
 | 000000       |101011       | SLTU -- Set on less than unsigned    | if $s > $t $d = 1; else $d = 0; | sltu $d, $s, $t |	0000 00ss ssst tttt dddd d000 0010 1011   |
 | 000000       |110000       | MUL -- Multiply                      | $d = $s * $t                    | mul $d, $s, $t  | 0000 00ss ssst tttt dddd d000 0011 0000   |
@@ -39,8 +39,8 @@ Developed a MIPS Architecture based CPU model which received the instruction fro
 | 001010         | SLTI -- Set on less than immediate (signed)   | if $s < imm $t = 1; else $t = 0 | slti $t, $s, imm     | 0010 10ss ssst tttt iiii iiii iiii iiii   |
 | 001011         | SLTIU -- Set on less than immediate unsigned  | if $s < imm $t = 1; else $t = 0 | addiu $t, $s, imm    | 0010 11ss ssst tttt iiii iiii iiii iiii   |
 | 001100         | ANDI -- Bitwise and immediate                 | $t = $s & imm                   | andi $t, $s, imm     | 0011 00ss ssst tttt iiii iiii iiii iiii   |
-| 001101         | ORI -- Bitwise or immediate                   | $t = $s  imm                    | ori $t, $s, imm      | 0011 01ss ssst tttt iiii iiii iiii iiii   |
-| 001110         | XORI -- Bitwise exclusive or immediate        | $t = $s ^ imm                   | xori $t, $s, imm     | 0011 10ss ssst tttt iiii iiii iiii iiii   |
+| 001101         | ORRI -- Bitwise or immediate                   | $t = $s  imm                    | ori $t, $s, imm      | 0011 01ss ssst tttt iiii iiii iiii iiii   |
+| 001110         | EORI -- Bitwise exclusive or immediate        | $t = $s ^ imm                   | xori $t, $s, imm     | 0011 10ss ssst tttt iiii iiii iiii iiii   |
 | 001111         | LUI -- Load upper immediate                   | $t = (imm << 16)                | lui $t, imm          | 0011 11-- ---t tttt iiii iiii iiii iiii   |
 | 010000         | MOV -- Assign value to address                | $s = imm                        | mov $s imm           | 0100 00ss sss- ---- iiii iiii iiii iiii   |
 | 010001         | MOVS -- Assign value to address               | $t = imm                        | mov $t imm           | 0100 01-- ---t tttt iiii iiii iiii iiii   |
