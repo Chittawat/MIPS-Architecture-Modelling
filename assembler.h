@@ -97,9 +97,9 @@ string assembler(string code){
     else if(opt=="MOV"   )  {ssOut<<"010000"<<r1<<"00000"<<r2;}//fault
     else if(opt=="MOVS"  )  {ssOut<<"010001"<<"00000"<<r1<<r2;}
     else if(opt=="LB"    )  {ssOut<<"100000"<<r2<<r1<<r3;}//fault
-    else if(opt=="LW"    )  {ssOut<<"100011"<<r2<<r1<<r3;}//fault
+    else if(opt=="LW"    )  {ssOut<<"100010"<<r2<<r1<<r3;}
     else if(opt=="SB"    )  {ssOut<<"101000"<<r2<<r1<<r3;}//fault
-    else if(opt=="SW"    )  {ssOut<<"101011"<<r2<<r1<<r3;}//fault
+    else if(opt=="SW"    )  {ssOut<<"101011"<<r2<<r1<<r3;}
         //J-instruction
     else if(opt=="ZERO"  )  {ssOut<<"000010"<<"00000"<<"00000"<<"00000"<<"00000"<<"000000";}
     else if(opt=="BEQ"   )  {ssOut<<"000100"<<r1<<r2<<r3;}

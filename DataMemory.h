@@ -7,9 +7,9 @@
 
 
 class DataMemory {
-private:
-    int mem[1028];
+
 public:
+    int mem[1028];
     int read(int addr){return mem[addr];}
     void write(int writeData,int addr,bool writeenable);
 };

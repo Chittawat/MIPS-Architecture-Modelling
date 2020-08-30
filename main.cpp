@@ -72,7 +72,6 @@ int main() {
     zero=ALUResultToRamAddressAndWBmux==0;
     //MEM Stage
     ram.write(RegisterreadData2ToExmuxAndramWriteData,ALUResultToRamAddressAndWBmux,ramwrite);
-
     //WB Stage
     ramReadDataToWBmux=ram.read(ALUResultToRamAddressAndWBmux);
     WBmuxToRegisterWriteData=WBmux.mux(ALUResultToRamAddressAndWBmux,ramReadDataToWBmux,MemToReg);
